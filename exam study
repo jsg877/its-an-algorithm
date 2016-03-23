@@ -1,0 +1,35 @@
+#include <iostream>
+#include <stdio.h>
+#include <unistd.h>
+using namespace std;
+
+
+int main ()
+{
+
+
+         char grade;
+         cout << "input grade";
+         cin >> grade;
+
+        while((grade=='A')||(grade=='a'))
+         {
+            cout << "great job";
+            break;
+        }
+        while((grade=='B')||(grade=='b'))
+           {
+            cout << "good job";
+            break;
+
+           }
+        while((grade=='C')|(grade=='c'))
+           {
+            cout << "passed";
+            break;
+           }
+
+    return 0;
+}
+
+
