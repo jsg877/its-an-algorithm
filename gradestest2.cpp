@@ -15,21 +15,20 @@ int main ()                 /** CPU program call */
 {
     char grade;              /** Character variable for grade */
 
-    cout << "Please enter your grade" << endl;  /** Printed out instructions to user */
+    cout << "Please enter your grade and press enter" << endl;  /** Printed out instructions to user */
     cin >> grade;                               /** input of grade*/
 
-    while((grade=='A')||(grade=='a'))   /** loop for A*/
+    while ( (grade == 'a') || (grade == 'A') )   /** loop for A*/
         {
-            cout << "Great Job";        /** Printed feedback for student */
+            cout << "Excellent";        /** Printed feedback for student */
             break;                      /** ends loop */
         }
-    while((grade=='B')||(grade=='b'))   /** Same steps in the A loop for B and C loops */
+    while ( (grade == 'b') || ( grade == 'B') )   /** Same steps in the A loop for B and C loops */
         {
-            cout << "Good Job";
+            cout << "Great Job";
             break;
-
         }
-    while((grade=='C')|(grade=='c'))
+    while ( (grade == 'c') || ( grade == 'C') )
         {
             cout << "You Passed";
             break;
